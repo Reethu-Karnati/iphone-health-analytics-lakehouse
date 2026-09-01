@@ -216,3 +216,36 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Apple Health source files — never upload
+*.xml
+*.zip
+
+# Generated data files
+*.parquet
+*.csv
+*.json
+
+# Local data directories
+data/
+raw_data/
+protected_data/
+output/
+
+# Databricks and Spark-generated files
+checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Delta Lake data
+_delta_log/
+
+# Environment files and secrets
+.env
+*.key
+*.pem
+
+# Local system files
+.DS_Store
+Thumbs.db
